@@ -17,6 +17,8 @@ class Division {
   }catch(Exception e){
 	  e.printStackTrace();
 	  System.out.println("Cannot divide by 0 ");
+  }finally {
+	    System.out.println("finally block will execute.");
   }
  
  
